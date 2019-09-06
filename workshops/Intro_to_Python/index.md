@@ -1,4 +1,7 @@
-# Intro to Python
+---
+layout: default
+---
+## Intro to Python
 
 | Audience | Computational skills required | Duration |
 :----------|:----------|:----------|

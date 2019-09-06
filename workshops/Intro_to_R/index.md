@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Introduction to R
 
 | Audience | Computational skills required | Duration |
