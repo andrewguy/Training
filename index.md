@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Training
+# Workshops
 
-Workshops for training in bioinformatics, data analysis and programming.
-
-This repository contains training material for a number of topics broadly related to bioinformatics.
+[**Introduction to R**](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/01_Intro-to-R)
