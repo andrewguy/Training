@@ -26,7 +26,7 @@ The R environment combines:
 
 ## Why use R?
 
-<img src="../img/why_R.png" width="600">
+![Why Use R](../img/why_R.png)
 
 
 
@@ -42,7 +42,7 @@ R is a powerful, extensible environment. It has a wide range of statistics and g
 
 RStudio is freely available open-source Integrated Development Environment (IDE). RStudio provides an environment with many features to make using R easier and is a great alternative to working on R in the terminal. 
 
-<img src="../img/rstudio_logo.png" width="300">
+![R Studio Logo](../img/rstudio_logo.png)
 
 * Graphical user interface, not just a command prompt
 * Great learning tool 
