@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-A postdoctoral research scientist from Melbourne, Australia. Interested in protein structure, machine learning, glycobiology and bioinformatics.
+Training materials for various workshops relating to bioinformatics, programming and data science.
 
 ### Contact me
 
