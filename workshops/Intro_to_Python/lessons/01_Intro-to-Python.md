@@ -976,7 +976,7 @@ gene_data.hist(column='Disorder')
 
 
 
-![png](output_77_1.png)
+![png](../img/output_77_1.png)
 
 
 While we can use the built in plotting functions in `Pandas`, you will end up needing to use `matplotlib` to build more complicated plots.
@@ -994,7 +994,7 @@ fig.show()
 ```
 
 
-![png](output_79_0.png)
+![png](../img/output_79_0.png)
 
 
 This plot is OK, but could do with some polishing. We can't really see all of the points (maybe a density estimation plot would be better??), and we need some labels...
@@ -1020,7 +1020,7 @@ fig.savefig("disorder_vs_length_scatter.png")
 ```
 
 
-![png](output_81_0.png)
+![png](../img/output_81_0.png)
 
 
 
@@ -1036,7 +1036,7 @@ kde_plot = seaborn.jointplot(x="Protein Length", y="Disorder", data=gene_data, k
 ```
 
 
-![png](output_82_0.png)
+![png](../img/output_82_0.png)
 
 
 
@@ -1046,7 +1046,7 @@ hex_plot = seaborn.jointplot(x="Protein Length", y="Disorder", data=gene_data, k
 ```
 
 
-![png](output_83_0.png)
+![png](../img/output_83_0.png)
 
 
 
