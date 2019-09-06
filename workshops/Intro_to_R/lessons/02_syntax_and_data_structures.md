@@ -28,7 +28,6 @@ _NOTE: indentation and consistency in spacing is used to improve clarity and leg
 ### Example script
 
 ```r
-
 # Load libraries
 library(Biobase)
 library(limma)
@@ -56,7 +55,7 @@ x <- 3
 
 The assignment operator (`<-`) assigns **values on the right** to **variables on the left**. 
 
-*In RStudio, typing `Alt + -` (push `Alt` at the same time as the `-` key) will write ` <- ` in a single keystroke.*
+*In RStudio, typing `Alt` + `-` (push `Alt` at the same time as the `-` key) will write `<-` in a single keystroke.*
 
 
 ## Variables
