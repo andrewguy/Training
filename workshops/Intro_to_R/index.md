@@ -34,9 +34,6 @@ All the files used for the above lessons are linked within, but can also be [acc
 
 ### Installation Requirements
 
-We will be using RStudio Cloud for this tutorial.
+We will be using [RStudio Cloud](https://rstudio.cloud) for this tutorial.
 
-If you wish to run RStudio locally, you can download the most recent versions of R and RStudio for your laptop:
-
- - [R](http://lib.stat.cmu.edu/R/CRAN/) 
- - [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+If you wish to run RStudio locally, you can download the most recent versions of [R](http://lib.stat.cmu.edu/R/CRAN/) and [RStudio](https://www.rstudio.com/products/rstudio/download/#download) for your laptop.
