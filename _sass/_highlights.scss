@@ -1,21 +1,22 @@
-
 code {
-  background-color: #efefef;
   padding: 0px 3px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
+
+code, highlight {
+  background-color: #efefef;
+}
+
 div.highlight {
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
-
 }
 
 pre.highlight {
   font-size: smaller;
   white-space: pre-wrap;
 }
-
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #aaaaaa; font-style: italic } /* Comment */
