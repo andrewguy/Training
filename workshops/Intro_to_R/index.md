@@ -23,18 +23,20 @@ These materials are intended to provide a **quick overview** of the R programmin
 
 | Lessons            | Estimated Duration |
 |:------------------------|:----------|
-|[Introduction to R and RStudio](https://hbctraining.github.io/Training-modules/IntroR/lessons/01_Intro-to-R.html) | 20 min |
-|[Syntax and data structures](https://hbctraining.github.io/Training-modules/IntroR/lessons/02_syntax_and_data_structures.html) | 35 min |
-|[Functions, arguments, packages and seeking help in R](https://hbctraining.github.io/Training-modules/IntroR/lessons/03_functions-and-arguments.html) | 35 min |
-|[Data wrangling](https://hbctraining.github.io/Training-modules/IntroR/lessons/04_data-wrangling.html) | 55 min |
+|[Introduction to R and RStudio](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/01_Intro-to-R) | 20 min |
+|[Syntax and data structures](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/02_syntax_and_data_structures) | 35 min |
+|[Functions, arguments, packages and seeking help in R](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/03_functions-and-arguments) | 35 min |
+|[Data wrangling](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/04_data-wrangling) | 55 min |
 
 ### Dataset
 
-All the files used for the above lessons are linked within, but can also be [accessed here](https://github.com/hbctraining/Intro-to-R-with-DGE/tree/master/data).
+All the files used for the above lessons are linked within, but can also be [accessed here](https://github.com/andrewguy/Training/workshops/Intro_to_R/data).
 
 ### Installation Requirements
 
-Download the most recent versions of R and RStudio for your laptop:
+We will be using RStudio Cloud for this tutorial.
+
+If you wish to run RStudio locally, you can download the most recent versions of R and RStudio for your laptop:
 
  - [R](http://lib.stat.cmu.edu/R/CRAN/) 
  - [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
