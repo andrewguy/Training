@@ -39,3 +39,5 @@ All the files used for the above lessons are linked within, but can also be [acc
 We will be using [RStudio Cloud](https://rstudio.cloud) for this tutorial.
 
 If you wish to run RStudio locally, you can download the most recent versions of [R](http://lib.stat.cmu.edu/R/CRAN/) and [RStudio](https://www.rstudio.com/products/rstudio/download/#download) for your laptop.
+
+*Note: The materials here have been adapted from lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/Training-modules).*
