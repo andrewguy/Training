@@ -27,6 +27,7 @@ These materials are intended to provide a **quick overview** of the R programmin
 |[Syntax and data structures](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/02_syntax_and_data_structures) | 35 min |
 |[Functions, arguments, packages and seeking help in R](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/03_functions-and-arguments) | 35 min |
 |[Data wrangling](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/04_data-wrangling) | 55 min |
+|[Data Visualization](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/05_data-visualization) | 50 min |
 
 ### Dataset
 

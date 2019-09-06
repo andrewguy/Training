@@ -276,6 +276,9 @@ list1
 
 There are three components corresponding to the three different variables we passed in, and what you see is that structure of each is retained.
 
+
+[**Next Lesson: Functions and arguments**](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/03_functions-and-arguments)
+
 ---
 
 *This lesson has been developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*

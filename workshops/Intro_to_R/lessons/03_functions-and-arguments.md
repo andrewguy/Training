@@ -307,6 +307,7 @@ some_data <- load(file="~/Downloads/iris.RData")
 * The [Introduction to R](http://cran.r-project.org/doc/manuals/R-intro.pdf) can also be dense for people with little programming experience but it is a good place to understand the underpinnings of the R language.
 * The [R FAQ](http://cran.r-project.org/doc/FAQ/R-FAQ.html) is dense and technical but it is full of useful information.
 
+[**Next Lesson: Data wrangling**](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/04_data-wrangling)
 
 ---
 

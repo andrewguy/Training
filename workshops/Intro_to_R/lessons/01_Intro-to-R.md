@@ -209,6 +209,8 @@ Before we move on to more complex concepts and getting familiar with the languag
 * The **R console** should be mainly used to inspect objects, test a function or get help. 
 * Use `#` signs to comment. **Comment liberally** in your R scripts. This will help future you and other collaborators know what each line of code (or code block) was meant to do. Anything to the right of a `#` is ignored by R. *A shortcut for this is `Ctrl + Shift + C` if you want to comment an entire chunk of text.*
 
+[**Next Lesson: Syntax and Data Structures**](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/02_syntax_and_data_structures)
+
 ---
 
 *This lesson has been adapted by Andrew Guy, with original lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/Training-modules). Changes include adapting material to run on RStudio Cloud.*
