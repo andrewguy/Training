@@ -1,7 +1,15 @@
 
-.highlight {
+div.highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+}
+
+pre.highlight {
+  font-size: smaller;
+  white-space: pre-wrap;
 }
 
 code {
