@@ -41,7 +41,8 @@ metaDir <- file.path(baseDir, "meta")
 resultsDir <- file.path(baseDir, "results")
 
 # Load data
-meta <- read.delim(file.path(metaDir, '2015-1018_sample_key.csv'), header=T, sep="\t", row.names=1)
+meta <- read.delim(file.path(metaDir, '2015-1018_sample_key.csv'), 
+                   header=T, sep="\t", row.names=1)
 ```
 
 ## Assignment operator
