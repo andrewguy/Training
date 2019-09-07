@@ -17,7 +17,7 @@ or import a particular subpackage, function or object from a library:
 
 `from sklearn import datasets`
 
-You can also provide an alias for an imported package:
+You can also provide an alias for an imported package using the `import ... as ...` syntax:
 
 `import numpy as np`
 

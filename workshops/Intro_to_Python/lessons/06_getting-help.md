@@ -29,30 +29,20 @@ It is worth having a read through the PEP 8 document [here](https://www.python.o
 
 ### Easter eggs...
 
+Time for some Python Zen:
 
 ```python
 import this
 ```
 
+Python doesn't have braces to designate code blocks (instead using indentation). But will this always be the case?
 
 ```python
 from __future__ import braces
 ```
 
-
-      File "<ipython-input-82-6d5c5b2f0daf>", line 1
-        from __future__ import braces
-                                     ^
-    SyntaxError: not a chance
-
-
-
+And just run this one...
 
 ```python
 import antigravity
-```
-
-
-```python
-
 ```

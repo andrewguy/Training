@@ -74,10 +74,8 @@ def print_gene_summary(gene_list):
     '''
     print(f"There are a total of {len(gene_list)} genes, with {len(set(gene_list))} unique genes.")
     return 
-```
 
 
-```python
 gene_list = ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300', 'PF3D7_0712300', 'PF3D7_0712300']
 print_gene_summary(gene_list)
 ```

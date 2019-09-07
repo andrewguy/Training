@@ -18,7 +18,7 @@ This is as simple as running `pip install seaborn` or `conda install seaborn` in
 
 ### Import relevant librarires
 
-We begin by importing all the libraries we are likely to use. Don't worry if you're not sure what you will need later on - you can always import a library when you need it. However, it's good practice to keep your imports at the start of your analysis.
+We begin by importing all the libraries we are likely to use. Don't worry if you're not sure what you will need later on - you can always import a library when you need it. However, it's generally good practice to keep your imports at the start of your document.
 
 
 ```python
@@ -70,239 +70,22 @@ We can use some of the built in DataFrame functions to examine the data. `head()
 gene_data.head()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Protein ID</th>
-      <th>Disorder</th>
-      <th>Linear B-cell Epitopes</th>
-      <th>Tandem Repeats</th>
-      <th>Non-syn SNPs</th>
-      <th>Protein Length</th>
-      <th>Tajimas D (Guinea)</th>
-      <th>Tajimas D (Gambia)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>mal_mito_1</td>
-      <td>0.80</td>
-      <td>0.40</td>
-      <td>0.0</td>
-      <td>0.40</td>
-      <td>250</td>
-      <td>-99.0</td>
-      <td>-99.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>mal_mito_2</td>
-      <td>1.46</td>
-      <td>3.14</td>
-      <td>0.0</td>
-      <td>0.00</td>
-      <td>478</td>
-      <td>-99.0</td>
-      <td>-99.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>mal_mito_3</td>
-      <td>1.33</td>
-      <td>2.93</td>
-      <td>0.0</td>
-      <td>0.00</td>
-      <td>376</td>
-      <td>-99.0</td>
-      <td>-99.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>PF3D7_0100100</td>
-      <td>57.61</td>
-      <td>35.64</td>
-      <td>1.2</td>
-      <td>23.99</td>
-      <td>2163</td>
-      <td>-99.0</td>
-      <td>-99.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>PF3D7_0100200</td>
-      <td>8.16</td>
-      <td>7.55</td>
-      <td>0.0</td>
-      <td>15.11</td>
-      <td>331</td>
-      <td>-99.0</td>
-      <td>-99.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
+![gene_data.head()](../img/gene_data_table.png)
 
 ```python
 gene_data.describe()
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Disorder</th>
-      <th>Linear B-cell Epitopes</th>
-      <th>Tandem Repeats</th>
-      <th>Non-syn SNPs</th>
-      <th>Protein Length</th>
-      <th>Tajimas D (Guinea)</th>
-      <th>Tajimas D (Gambia)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>5247.000000</td>
-      <td>5247.000000</td>
-      <td>5247.000000</td>
-      <td>5247.000000</td>
-      <td>5247.000000</td>
-      <td>5247.000000</td>
-      <td>5247.000000</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>22.233842</td>
-      <td>14.702384</td>
-      <td>3.237848</td>
-      <td>1.146499</td>
-      <td>778.699638</td>
-      <td>-46.702499</td>
-      <td>-46.524707</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>19.658567</td>
-      <td>10.035328</td>
-      <td>6.892031</td>
-      <td>3.304764</td>
-      <td>877.389801</td>
-      <td>48.561593</td>
-      <td>48.726494</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>0.160000</td>
-      <td>0.170000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>35.000000</td>
-      <td>-99.000000</td>
-      <td>-99.000000</td>
-    </tr>
-    <tr>
-      <th>25%</th>
-      <td>7.180000</td>
-      <td>7.555000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>275.000000</td>
-      <td>-99.000000</td>
-      <td>-99.000000</td>
-    </tr>
-    <tr>
-      <th>50%</th>
-      <td>15.920000</td>
-      <td>12.610000</td>
-      <td>0.000000</td>
-      <td>0.220000</td>
-      <td>477.000000</td>
-      <td>-2.380000</td>
-      <td>-2.060000</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>32.195000</td>
-      <td>19.170000</td>
-      <td>4.140000</td>
-      <td>0.770000</td>
-      <td>956.000000</td>
-      <td>-1.780000</td>
-      <td>-1.440000</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>100.000000</td>
-      <td>91.190000</td>
-      <td>100.000000</td>
-      <td>28.160000</td>
-      <td>10287.000000</td>
-      <td>2.690000</td>
-      <td>2.590000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+![gene_data.describe()](../img/gene_data_describe.png)
 
 
 ```python
 gene_data.info()
 ```
 
->    <class 'pandas.core.frame.DataFrame'>  
->    RangeIndex: 5247 entries, 0 to 5246  
->    Data columns (total 8 columns):  
->    Protein ID                5247 non-null object  
->    Disorder                  5247 non-null float64  
->    Linear B-cell Epitopes    5247 non-null float64  
->    Tandem Repeats            5247 non-null float64  
->    Non-syn SNPs              5247 non-null float64  
->    Protein Length            5247 non-null int64  
->    Tajimas D (Guinea)        5247 non-null float64  
->    Tajimas D (Gambia)        5247 non-null float64  
->    dtypes: float64(6), int64(1), object(1)  
->    memory usage: 328.0+ KB  
+
+![gene_data.info()](../img/gene_data_info.png)
+ 
 
 
 To access data from a particular column, we can use square brackets `[]`, putting the column name within the brackets (like accessing a dictionary item):
