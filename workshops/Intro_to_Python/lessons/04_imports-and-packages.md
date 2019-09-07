@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ### Imports
 
 One of the powerful aspects of Python (and most other programming languages) is the ability to utilise external libraries and packages to extend the base functionality of Python

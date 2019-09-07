@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Part 2: Variables, data types
 
 Python has a number of [fundamental data types](https://docs.python.org/3/library/stdtypes.html#), including numeric types (`int`, `float` and `complex`), sequence types (`list`, `tuple`, `range`), string types (`str`), mapping types (`dict`) and set types (`set`).

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Part 5: Doing something useful...
 
 

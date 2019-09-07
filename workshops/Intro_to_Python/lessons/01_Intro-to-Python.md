@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # An Introduction to Python
 
 Python is one of the most popular programming languages, and is widely used in a variety of fields. In particular, Python is used extensively for data science owing to the large number of open-source machine learning and data science libraries written for Python. Python code is designed to be easy to write and easy to read, keeping unnecessary details (such as memory management) hidden from the programmer and user.

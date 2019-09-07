@@ -251,6 +251,16 @@ nav {
 // .main
 //
 
+blockquote {
+  padding: 0px 3px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  background: #fffde7;
+  border-left: 10px solid #ffe8b5;
+  margin: 1.5em 0px;
+  padding: 0.5em 10px;
+  font-size: smaller;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;

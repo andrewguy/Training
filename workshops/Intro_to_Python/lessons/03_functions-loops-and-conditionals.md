@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## Functions
 
 Python functions allow us to wrap commonly used pieces of code into reusable methods.
