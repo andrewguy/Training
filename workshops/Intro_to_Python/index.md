@@ -17,13 +17,13 @@ This workshop is designed to provide a solid foundation for the start of your Py
 
 | Lessons            | Estimated Duration |
 |:------------------------|:----------|
-|[Introduction to Python and Jupyter Lab](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/01_Intro-to-Python) | 20 min |
-|[Syntax and data structures](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/02_syntax_and_data_structures) | 35 min |
-|[Functions, arguments, packages and seeking help in Python](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-and-arguments) | 35 min |
-|[Data wrangling](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_data-wrangling) | 55 min |
-|[Data Visualization](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-visualization) | 50 min |
+|[Introduction to Python and Jupyter Lab](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/01_Intro-to-Python) | 10 min |
+|[Syntax and data structures](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/02_variables-and-data-types) | 35 min |
+|[Functions, arguments, packages and seeking help in Python](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals) | xx min |
+|[Data wrangling](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_imports-and-packages) | xx min |
+|[Data Visualization](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting) | xx min |
 
-(Note: This is currently a work in progress, and all content is currently under lesson 1 (intro to Python). Will break up into logical sections soon.))
+(Note: This is currently a work in progress. More polishing of content needed...)
 
 ### Dataset
 
