@@ -17,23 +17,21 @@ This workshop is designed to provide a solid foundation for the start of your Py
 
 | Lessons            | Estimated Duration |
 |:------------------------|:----------|
-|[Introduction to Python and Jupyter Lab](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/01_Intro-to-Python) | 10 min |
-|[Variables and data types](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/02_variables-and-data-types) | 35 min |
-|[Functions, loops and conditionals](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals) | xx min |
-|[Imports and packages](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_imports-and-packages) | xx min |
-|[Data manipulation and plotting](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting) | xx min |
-|[Getting Help](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/06_getting-help) | xx min |
-
-(Note: This is currently a work in progress. More polishing of content needed...)
+|[Introduction to Python and Jupyter Lab](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/01_Intro-to-Python) | 20 min |
+|[Variables and data types](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/02_variables-and-data-types) | 45 min |
+|[Functions, loops and conditionals](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals) | 45 min |
+|[Imports and packages](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_imports-and-packages) | 15 min |
+|[Data manipulation and plotting](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting) | 45 min |
+|[Getting Help](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/06_getting-help) | 10 min |
 
 ### Dataset
 
-All the files used for the above lessons are linked within, but can also be [accessed here](https://github.com/andrewguy/Training/workshops/Intro_to_Python/data).
+All the files used for the above lessons are linked within, but can also be [accessed here](https://github.com/andrewguy/Training/tree/master/workshops/Intro_to_Python/data).
 
 ### Installation Requirements
 
 We will be using Jupyter Lab via [CloudStor](https://cloudstor.aarnet.edu.au) for this tutorial.
 
-If you don't have access to CloudStor, you can also use Jupyter Lab through [Binder](https://mybinder.org/)
+If you don't have access to CloudStor, you can also use Jupyter Lab through [Binder](https://jupyter.org/try)
 
 If you wish to run Jupyter Lab locally, the easiest way is to download the [Anaconda Python distribution](https://www.anaconda.com/distribution/) and install on your laptop.

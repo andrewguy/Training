@@ -42,7 +42,6 @@ print(number_of_genes)
 
 >    5268
 
-
 Alternatively, if you write out the variable name by itself at the end of a code cell in Jupyter Notebook, it will print out the value (just like using the print function):
 
 
@@ -54,14 +53,12 @@ average_gene_length = 1034.56
 number_of_genes
 ```
 
-
-
-
 >    5000
 
 
+If you want to print out multiple variables within a code cell, you will have to use the `print` function.
 
-If you want to print out mutliple values within a code cell, you will have to use the `print` function.
+### Comments
 
 Any written code often needs comments to explain particular decisions, or alert other contributors to particular issues or design considerations.
 
@@ -74,7 +71,7 @@ In Python, any line that starts with a `#` symbol is considered to be a comment,
 average_gene_length = 1078.2
 
 # average_gene_length = 9000!  
-# Note that the above line is not run, even if it is valid code (except for the # symbol)
+# Note that the above line is ignored by the Python interpreter.
 
 print(average_gene_length)
 ```
@@ -84,12 +81,14 @@ print(average_gene_length)
 
 While it is good to thoroughly document your code, comments are no replacement for sensible variable names. `average_gene_length` is a much more descriptive variable name than `av_gl` or `x`.
 
+### Variable naming rules
+
 On the topic of variable names, there are a few rules when naming variables:
-- Must begin with a letter (a - z, A - B) or underscore (_)
-- Other characters can be letters, numbers or _
+- Must begin with a letter (a - z, A - Z) or underscore (`_`)
+- Other characters can be letters, numbers or underscore (`_`)
 - Case Sensitive.
 - Can be any (reasonable) length.
-- There are some reserved words which you cannot use as a variable name because Python uses them for other things.
+- There are some reserved words which you cannot use as a variable name because Python uses them for other things. A full list of these can be found [here](https://github.com/python/cpython/blob/3.7/Lib/keyword.py).
 
 Apart from this, there are a [few conventions](https://www.python.org/dev/peps/pep-0008/#naming-conventions) for naming particular types of variables. We will use these conventions for the rest of the tutorial, but won't go into more detail here.
 
@@ -104,18 +103,14 @@ If you are ever unsure what type a particular variable holds, you can use the `t
 type(average_gene_length)
 ```
 
-
-
-
 >    float
-
 
 
 ### Strings
 
 Strings are a fundamental data type in Python, and hold a string of characters (letters, numbers, symbols... Any unicode character is acceptable!).
 
-There are a number of [built-in functions](https://docs.python.org/3.7/library/stdtypes.html#string-methods) that help us manipulate strings &mdash; we will explore a few of theme here.
+There are a number of [built-in functions](https://docs.python.org/3.7/library/stdtypes.html#string-methods) that help us manipulate strings &mdash; we will explore a few of them here.
 
 
 ```python
@@ -168,14 +163,12 @@ print(file_name.endswith('.fasta'))
 print(file_name.startswith('PV'))
 ```
 
->    True
->    False
+>    True  
+>    False  
 
-
+Multiline strings are also possible. Use triple quotes for these:
 
 ```python
-# Mutiline strings are also possible - use triple-quotes
-
 multiple_line_string = """This is a
 multi-line
 string"""
@@ -187,21 +180,22 @@ print(multiple_line_string)
 >  multi-line  
 >  string 
 
+There are many ways to insert a variable into a string. The easiest way is to use f-strings (although this is only supported from Python 3.6 onwards).
 
+An f-string is just like a normal string, except that it is preceeded by the letter `f` (before the quotation marks that designate the start of the string).
+Any variable within curly braces `{...}` will be converted to a string and placed within the overall string at that position. For example:
 
 ```python
-# Many ways to put variables into a string. The easiest way is f-strings
-# (not supported on Python versions < 3.6)...
-
 print(f"There are {number_of_genes} genes in P. falciparum")
+```
+>    There are 5000 genes in P. falciparum  
 
-# Can also use .format()
+Alternatively, you can use the `format()`method after the string, again placing variables within curly braces within the string. For example:
 
+```python
 print("There are {x} genes in P. falciparum".format(x=number_of_genes))
 ```
 
->    There are 5000 genes in P. falciparum  
->
 >    There are 5000 genes in P. falciparum
 
 
@@ -265,6 +259,15 @@ print(type(20 / 4))
 >    <class 'int'>  
 >    <class 'float'>
 
+Also consider:
+
+```python
+print(20 / 3)
+print(type(20 / 3))
+```
+
+>    6.666666666666667
+>    <class 'float'>
 
 ### Floats
 
@@ -279,12 +282,7 @@ average_gene_length = 1034.56
 type(average_gene_length)
 ```
 
-
-
-
 >    float
-
-
 
 
 ```python
@@ -294,10 +292,7 @@ type(average_gene_length)
 ```
 
 
-
-
 >    1068.56
-
 
 
 ### Booleans
@@ -306,7 +301,6 @@ Booleans are a data type that represent True and False, and are often the result
 
 There are only two boolean values - `True` and `False`. Capitalisation matters here - `false`, `FALSE`, or `f` are not boolean values!
 
-
 ```python
 # Booleans
 
@@ -314,15 +308,19 @@ is_protein_coding = True
 is_interesting = False
 
 print(is_protein_coding)
-
 ```
 
 >    True
 
-
 ### Comparisons
 
 Python has a number of [comparison operators](https://docs.python.org/3/reference/expressions.html#value-comparisons). The operators `<`, `>`, `==`, `>=`, `<=`, and `!=` compare the values of two objects.
+
+The `==` operator compares equality. It will return `True` if objects have the same value, `False` otherwise.
+
+`>`, `<`, `>=` and `<=` are greater than, less than, greater-or-equal and less-or-equal operators respectively.
+
+The `!=` operator is the inequality operator. It is the opposite of `==`. 
 
 All comparison operators will return a boolean value &mdash; either `True` or `False`.
 
@@ -331,113 +329,103 @@ All comparison operators will return a boolean value &mdash; either `True` or `F
 3 < 6
 ```
 
-
-
-
 >    True
-
-
-
 
 ```python
 3 > 6
 ```
 
-
-
-
 >    False
-
-
 
 
 ```python
 3 == 6
 ```
 
-
-
-
 >    False
-
-
-
 
 ```python
 6 == 6
 ```
 
-
-
-
 >    True
-
-
-
 
 ```python
 6 == '6'
 ```
 
-
-
-
 >    False
-
-
-
 
 ```python
 6 != '6'
 ```
 
-
-
-
 >    True
 
-
+If the above two examples seem confusing, remember that strings are enclosed in quotes, whereas integers are written without quotes.
 
 ### Logical tests
 
-You can also perform logical tests to combine multiple boolean values. These are `and`, `or` and `not`.
+You can also perform logical comparisons to combine multiple boolean values. These are `and`, `or` and `not`.
 
 
 ```python
-# Can perform logical tests
-
-
 print(f"Is protein coding: {is_protein_coding}")
 print(f"Is interesting: {is_interesting}")
-
-# Logical AND
-print(f"Is protein coding and interesting: {is_protein_coding and is_interesting}")
-
-# Logical OR
-print(f"Is protein coding or interesting: {is_protein_coding or is_interesting}")
 ```
 
->    Is protein coding: True  
->
->    Is interesting: False  
->
->    Is protein coding and interesting: False  
->
->    Is protein coding or interesting: True
+The logical `and` will return `True` only if both values are `True`.
+```python
+is_protein_coding and is_interesting
+```
+>    False
 
+The logical `or` will return `True` if either value is `True`.
+```python
+is_protein_coding or is_interesting
+```
+>    True
 
+The `not` test always returns the opposite boolean value.
 
 ```python
-# The `not` test always returns the opposite boolean value.
 not True
 ```
 
-
-
-
 >    False
 
+Multiple logical comparisons can be combined, using brackets to determine evaluation order if necessary:
 
+```python
+x = 4
+(is_protein_coding and is_interesting) or (x > 3)
+```
+
+> True
+
+### Identity comparison
+
+Python has another comparison operator &mdash; `is`.
+
+The `is` operator compares identity, not equality. Consider:
+
+```python
+x = [1, 2, 3]
+y = [1, 2, 3]
+x is y
+```
+
+> False
+
+```python
+x = [1, 2, 3]
+y = x
+x is y
+```
+
+> True
+
+This example touches on the way that Python treats the relationship between variables and the underlying objects they point to. We won't go into more detail now, but do want to point out that this is worth exploring once you get more comfortable with the basics of the language.
 
 ### Lists
 
@@ -454,18 +442,14 @@ print(gene_list)
 
 >    ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300']
 
-
 You can also create a list by calling the list function on another object:
 
-
 ```python
-list_of_letters = list('PF3D7_0731500')
-print(list_of_letters)
+list_of_characters = list('PF3D7_0731500')
+print(list_of_characters)
 ```
 
 >    ['P', 'F', '3', 'D', '7', '_', '0', '7', '3', '1', '5', '0', '0']
-
-
 
 ```python
 # Check how many elements are in a list
@@ -473,15 +457,9 @@ print(list_of_letters)
 len(gene_list)
 ```
 
-
-
-
 >    3
 
-
-
 Lists can contain any type of data:
-
 
 ```python
 # Lists can contain any type of data - can also contain mixed data types
@@ -499,8 +477,7 @@ len(complex_list)
 >    4
 
 
-
-Retrieving items from a list is as simple as using square brackets after the list name, with the item index within the brackets.
+Retrieving items from a list is as simple as using square brackets after the list name, with the item index within the brackets. The item index is the position of the item of the list, starting from 0.
 
 One very important thing to note here is that Python is a zero-indexed language. That means that the first item in the list is accessed with index `0` (unlike R or Matlab, which are 1-indexed).
 
@@ -538,11 +515,7 @@ When performing list slicing, you need to specificy the lower bound (inclusive) 
 gene_list[0:2]
 ```
 
-
-
-
 >    ['PF3D7_0731500', 'PF3D7_1133400']
-
 
 
 Note that we only return the items with index between `0` and `1` in the above example - the upper bound is not inclusive!
@@ -554,27 +527,16 @@ You can also return all items to the end of the list (or from the start of the l
 gene_list[:2]
 ```
 
-
-
-
 >    ['PF3D7_0731500', 'PF3D7_1133400']
-
-
-
 
 ```python
 gene_list[1:]
 ```
 
-
-
-
 >    ['PF3D7_1133400', 'PF3D7_0707300']
 
 
-
 Adding items to a list is easy:
-
 
 ```python
 # Can add items to a list
@@ -586,9 +548,7 @@ print(gene_list)
 
 >    ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300', 'PF3D7_0712300']
 
-
 Reassigning items in a list is also easy:
-
 
 ```python
 # Can re-assign items in a list
@@ -599,7 +559,6 @@ print(gene_list)
 ```
 
 >    ['A new gene!', 'PF3D7_1133400', 'PF3D7_0707300', 'PF3D7_0712300']
-
 
 ### Dictionaries
 
@@ -626,22 +585,15 @@ Values from a dictionary can be accessed in a similar way to list indexing - exc
 
 Dictionaries are unordered,so using an index does not make sense (even if you wrote out the dictionary entries in a particular order).
 
-
 ```python
 # Access dictionary items with keys
 
 protein_length_dict['PF3D7_0731500']
 ```
 
-
-
-
 >    1504
 
-
-
 Similar to lists, assigning a new value to a key is straightforward:
-
 
 ```python
 # Assign new values (or overwrite old ones)
@@ -651,11 +603,9 @@ protein_length_dict['new_gene_1'] = 452
 
 Accessing a key that doesn't exist will raise an error:
 
-
 ```python
 protein_length_dict['new_gene_2']
 ```
-
 
 >    ---------------------------------------------------------------------------
 >
@@ -670,17 +620,11 @@ protein_length_dict['new_gene_2']
 
 To avoid this, you can check if a key is in a dictionary:
 
-
 ```python
 'new_gene_1' in protein_length_dict
 ```
 
-
-
-
 >    True
-
-
 
 You can also get values from a dictionary using `get`:
 
@@ -689,12 +633,7 @@ You can also get values from a dictionary using `get`:
 protein_length_dict.get("new_gene_1")
 ```
 
-
-
-
 >    452
-
-
 
 `get()` takes an optional argument that allows us to assign a default value if key is not found.
 
@@ -703,12 +642,7 @@ protein_length_dict.get("new_gene_1")
 protein_length_dict.get("new_gene_2", -1)
 ```
 
-
-
-
 >    -1
-
-
 
 ### Other data types - tuples, sets
 
@@ -732,7 +666,6 @@ Trying to change part of a tuple will raise an exception
 ```python
 header_tuple[1] = "Species"
 ```
-
 
 >    ---------------------------------------------------------------------------
 >
@@ -759,10 +692,7 @@ gene_ontology_term_set.intersection(terms_of_interest)
 ```
 
 
-
-
 >    {'ATP Binding', 'Unfolded Protein Binding'}
-
 
 
 We can create a set from a list containing duplicates &mdash; this will remove duplicates.
@@ -773,12 +703,7 @@ Notice that sets are unordered!
 set([1, 2, 3, 1, 2, 5, 3, 6, 5, 3])
 ```
 
-
-
-
 >    {1, 2, 3, 5, 6}
-
-
 
 ## Conclusion, Part 2
 
@@ -787,7 +712,6 @@ There are many other more complex data types from various Python packages.
 For example, the built-in [`collections` module](https://docs.python.org/3.7/library/collections.html) has data types such as counters (counts the number of times each value occurs) and ordered dictionaries (like a dictionary, but entries are ordered like a list).
 
 Packages such as `numpy` also have their own set of data types.
-
 
 
 That wraps up our overview of basic data types. Take a break and stretch your legs!
