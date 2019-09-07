@@ -37,7 +37,7 @@ If we want to find out what value a particular variable point to, we can use the
 print(number_of_genes)
 ```
 
-    5268
+>    5268
 
 
 Alternatively, if you write out the variable name by itself at the end of a code cell in Jupyter Notebook, it will print out the value (just like using the print function):
@@ -54,7 +54,7 @@ number_of_genes
 
 
 
-    5000
+>    5000
 
 
 
@@ -76,7 +76,7 @@ average_gene_length = 1078.2
 print(average_gene_length)
 ```
 
-    1078.2
+>    1078.2
 
 
 While it is good to thoroughly document your code, comments are no replacement for sensible variable names. `average_gene_length` is a much more descriptive variable name than `av_gl` or `x`.
@@ -104,7 +104,7 @@ type(average_gene_length)
 
 
 
-    float
+>    float
 
 
 
@@ -122,8 +122,8 @@ print(interesting_gene)
 print(type(interesting_gene))
 ```
 
-    PF3D7_0731500
-    <class 'str'>
+>    PF3D7_0731500  
+>    <class 'str'>
 
 
 
@@ -138,7 +138,7 @@ file_name
 
 
 
-    'PF3D7_0731500.fasta'
+>    'PF3D7_0731500.fasta'
 
 
 
@@ -152,7 +152,7 @@ file_name.split('.')
 
 
 
-    ['PF3D7_0731500', 'fasta']
+>    ['PF3D7_0731500', 'fasta']
 
 
 
@@ -165,8 +165,8 @@ print(file_name.endswith('.fasta'))
 print(file_name.startswith('PV'))
 ```
 
-    True
-    False
+>    True
+>    False
 
 
 
@@ -180,9 +180,9 @@ string"""
 print(multiple_line_string)
 ```
 
-    This is a
-    multi-line
-    string
+>  This is a  
+>  multi-line  
+>  string 
 
 
 
@@ -197,8 +197,9 @@ print(f"There are {number_of_genes} genes in P. falciparum")
 print("There are {x} genes in P. falciparum".format(x=number_of_genes))
 ```
 
-    There are 5000 genes in P. falciparum
-    There are 5000 genes in P. falciparum
+>    There are 5000 genes in P. falciparum  
+>
+>    There are 5000 genes in P. falciparum
 
 
 ### Integers
@@ -212,8 +213,8 @@ print(number_of_genes)
 print(type(number_of_genes))
 ```
 
-    5000
-    <class 'int'>
+>    5000  
+>    <class 'int'>
 
 
 
@@ -229,7 +230,7 @@ non_protein_coding_genes = number_of_genes - protein_coding
 print(non_protein_coding_genes)
 ```
 
-    587
+>    587
 
 
 
@@ -244,9 +245,9 @@ print(20 ** 4)
 
 ```
 
-    9432
-    5.0
-    160000
+>    9432  
+>    5.0  
+>    160000
 
 
 What do you notice about integer division?
@@ -257,9 +258,9 @@ What do you notice about integer division?
 print(type(20 * 4))
 print(type(20 / 4))
 ```
-
-    <class 'int'>
-    <class 'float'>
+ 
+>    <class 'int'>  
+>    <class 'float'>
 
 
 ### Floats
@@ -278,7 +279,7 @@ type(average_gene_length)
 
 
 
-    float
+>    float
 
 
 
@@ -292,7 +293,7 @@ type(average_gene_length)
 
 
 
-    1068.56
+>    1068.56
 
 
 
@@ -313,7 +314,7 @@ print(is_protein_coding)
 
 ```
 
-    True
+>    True
 
 
 ### Comparisons
@@ -330,7 +331,7 @@ All comparison operators will return a boolean value &mdash; either `True` or `F
 
 
 
-    True
+>    True
 
 
 
@@ -342,7 +343,7 @@ All comparison operators will return a boolean value &mdash; either `True` or `F
 
 
 
-    False
+>    False
 
 
 
@@ -354,7 +355,7 @@ All comparison operators will return a boolean value &mdash; either `True` or `F
 
 
 
-    False
+>    False
 
 
 
@@ -366,7 +367,7 @@ All comparison operators will return a boolean value &mdash; either `True` or `F
 
 
 
-    True
+>    True
 
 
 
@@ -378,7 +379,7 @@ All comparison operators will return a boolean value &mdash; either `True` or `F
 
 
 
-    False
+>    False
 
 
 
@@ -390,7 +391,7 @@ All comparison operators will return a boolean value &mdash; either `True` or `F
 
 
 
-    True
+>    True
 
 
 
@@ -413,10 +414,13 @@ print(f"Is protein coding and interesting: {is_protein_coding and is_interesting
 print(f"Is protein coding or interesting: {is_protein_coding or is_interesting}")
 ```
 
-    Is protein coding: True
-    Is interesting: False
-    Is protein coding and interesting: False
-    Is protein coding or interesting: True
+>    Is protein coding: True  
+>
+>    Is interesting: False  
+>
+>    Is protein coding and interesting: False  
+>
+>    Is protein coding or interesting: True
 
 
 
@@ -428,7 +432,7 @@ not True
 
 
 
-    False
+>    False
 
 
 
@@ -445,7 +449,7 @@ gene_list = ['PF3D7_0731500', 'PF3D7_1133400', "PF3D7_0707300"]
 print(gene_list)
 ```
 
-    ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300']
+>    ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300']
 
 
 You can also create a list by calling the list function on another object:
@@ -456,7 +460,7 @@ list_of_letters = list('PF3D7_0731500')
 print(list_of_letters)
 ```
 
-    ['P', 'F', '3', 'D', '7', '_', '0', '7', '3', '1', '5', '0', '0']
+>    ['P', 'F', '3', 'D', '7', '_', '0', '7', '3', '1', '5', '0', '0']
 
 
 
@@ -469,7 +473,7 @@ len(gene_list)
 
 
 
-    3
+>    3
 
 
 
@@ -487,13 +491,9 @@ print(complex_list)
 len(complex_list)
 ```
 
-    [1, 'A string', [1, 2, 3], False]
-
-
-
-
-
-    4
+>    [1, 'A string', [1, 2, 3], False]
+>
+>    4
 
 
 
@@ -520,10 +520,10 @@ print(f"Second item in list is {second_gene}, and is accessed with index 1")
 print(f"Last item in list is {gene_list[-1]}, and is accessed with index -1")
 ```
 
-    Full gene list is ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300']
-    First item in list is PF3D7_0731500, and is accessed with index 0
-    Second item in list is PF3D7_1133400, and is accessed with index 1
-    Last item in list is PF3D7_0707300, and is accessed with index -1
+>    Full gene list is ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300']  
+>    First item in list is PF3D7_0731500, and is accessed with index 0  
+>    Second item in list is PF3D7_1133400, and is accessed with index 1  
+>    Last item in list is PF3D7_0707300, and is accessed with index -1  
 
 
 You can also perform list slicing to get a subset of items in the list - this always returns another list.
@@ -538,7 +538,7 @@ gene_list[0:2]
 
 
 
-    ['PF3D7_0731500', 'PF3D7_1133400']
+>    ['PF3D7_0731500', 'PF3D7_1133400']
 
 
 
@@ -554,7 +554,7 @@ gene_list[:2]
 
 
 
-    ['PF3D7_0731500', 'PF3D7_1133400']
+>    ['PF3D7_0731500', 'PF3D7_1133400']
 
 
 
@@ -566,7 +566,7 @@ gene_list[1:]
 
 
 
-    ['PF3D7_1133400', 'PF3D7_0707300']
+>    ['PF3D7_1133400', 'PF3D7_0707300']
 
 
 
@@ -581,7 +581,7 @@ gene_list.append("PF3D7_0712300")
 print(gene_list)
 ```
 
-    ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300', 'PF3D7_0712300']
+>    ['PF3D7_0731500', 'PF3D7_1133400', 'PF3D7_0707300', 'PF3D7_0712300']
 
 
 Reassigning items in a list is also easy:
@@ -595,7 +595,7 @@ gene_list[0] = "A new gene!"
 print(gene_list)
 ```
 
-    ['A new gene!', 'PF3D7_1133400', 'PF3D7_0707300', 'PF3D7_0712300']
+>    ['A new gene!', 'PF3D7_1133400', 'PF3D7_0707300', 'PF3D7_0712300']
 
 
 ### Dictionaries
@@ -633,7 +633,7 @@ protein_length_dict['PF3D7_0731500']
 
 
 
-    1504
+>    1504
 
 
 
@@ -654,15 +654,15 @@ protein_length_dict['new_gene_2']
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    KeyError                                  Traceback (most recent call last)
-
-    <ipython-input-62-c7a79ee684ff> in <module>()
-    ----> 1 protein_length_dict['new_gene_2']
-    
-
-    KeyError: 'new_gene_2'
+>    ---------------------------------------------------------------------------
+>
+>    KeyError                                  Traceback (most recent call last)
+>
+>    <ipython-input-62-c7a79ee684ff> in <module>()
+>    ----> 1 protein_length_dict['new_gene_2']
+>    
+>
+>    KeyError: 'new_gene_2'
 
 
 To avoid this, you can check if a key is in a dictionary:
@@ -675,7 +675,7 @@ To avoid this, you can check if a key is in a dictionary:
 
 
 
-    True
+>    True
 
 
 
@@ -689,7 +689,7 @@ protein_length_dict.get("new_gene_1")
 
 
 
-    452
+>    452
 
 
 
@@ -703,7 +703,7 @@ protein_length_dict.get("new_gene_2", -1)
 
 
 
-    -1
+>    -1
 
 
 
@@ -720,7 +720,7 @@ header_tuple = ("Gene", "Organism", "data_file", "number_of_counts")
 print(header_tuple)
 ```
 
-    ('Gene', 'Organism', 'data_file', 'number_of_counts')
+>    ('Gene', 'Organism', 'data_file', 'number_of_counts')
 
 
 Trying to change part of a tuple will raise an exception
@@ -731,15 +731,15 @@ header_tuple[1] = "Species"
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-68-cfb842aca20d> in <module>()
-    ----> 1 header_tuple[1] = "Species"
-    
-
-    TypeError: 'tuple' object does not support item assignment
+>    ---------------------------------------------------------------------------
+>
+>    TypeError                                 Traceback (most recent call last)
+>
+>    <ipython-input-68-cfb842aca20d> in <module>()
+>    ----> 1 header_tuple[1] = "Species"
+>    
+>
+>    TypeError: 'tuple' object does not support item assignment
 
 
 ### Sets
@@ -758,7 +758,7 @@ gene_ontology_term_set.intersection(terms_of_interest)
 
 
 
-    {'ATP Binding', 'Unfolded Protein Binding'}
+>    {'ATP Binding', 'Unfolded Protein Binding'}
 
 
 
@@ -773,7 +773,7 @@ set([1, 2, 3, 1, 2, 5, 3, 6, 5, 3])
 
 
 
-    {1, 2, 3, 5, 6}
+>    {1, 2, 3, 5, 6}
 
 
 
