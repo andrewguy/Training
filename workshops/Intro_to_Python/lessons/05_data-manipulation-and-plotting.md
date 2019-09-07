@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 ### Load and examine data
 
-We will now load a `.csv` data file using pandas. If you don't already have this file in your working directory, download it from [here](https://raw.githubusercontent.com/andrewguy/Training/master/Intro_to_Python/data/proteome_data.csv).
+We will now load a `.csv` data file using pandas. If you don't already have this file in your working directory, download it from [here](https://raw.githubusercontent.com/andrewguy/training/master/Intro_to_Python/data/proteome_data.csv).
 
 Alternatively, you can run the following bash code in your Jupyter Notebook to automatically download the file into your working directory (the `%%bash` line is a bit of "cell magic" that tells Jupyter Notebook to run that cell as a bash command):
 
@@ -40,7 +40,7 @@ Alternatively, you can run the following bash code in your Jupyter Notebook to a
 
 ```bash
 %%bash
-wget https://raw.githubusercontent.com/andrewguy/Training/master/workshops/Intro_to_Python/data/proteome_data.csv
+wget https://raw.githubusercontent.com/andrewguy/training/master/workshops/Intro_to_Python/data/proteome_data.csv
 ```
 
 Loading the data:
@@ -274,4 +274,4 @@ kde_plot.savefig('kde_plot.svg')
 hex_plot.savefig('hex_plot.svg')
 ```
 
-[**Next Lesson: Getting Help**](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/06_getting-help)
+[**Next Lesson: Getting Help**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/06_getting-help)

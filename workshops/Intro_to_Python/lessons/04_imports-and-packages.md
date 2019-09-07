@@ -81,4 +81,4 @@ While this list is by no means exhaustive, here are some of the key packages tha
 - [StatsModels](https://www.statsmodels.org): Statistical tests and data exploration.
 
 
-[**Next Lesson: Data Manipulation and Plotting**](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting)
+[**Next Lesson: Data Manipulation and Plotting**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting)

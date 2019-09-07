@@ -12,7 +12,7 @@ When we are working with large sets of numbers it can be useful to display that 
 
 More recently, R users have moved away from base graphic options towards `ggplot2` since it offers a lot more functionality as compared to the base R plotting functions. The `ggplot2` syntax takes some getting used to, but once you get it, you will find it's extremely powerful and flexible. 
 
-For this section, we will be using a modified metadata table, download it [from here](https://raw.githubusercontent.com/andrewguy/Training/master/workshops/Intro_to_R/data/new_metadata.csv) and save it in the `data` folder. Next, let's load it into a new object called `new_metadata`.
+For this section, we will be using a modified metadata table, download it [from here](https://raw.githubusercontent.com/andrewguy/training/master/workshops/Intro_to_R/data/new_metadata.csv) and save it in the `data` folder. Next, let's load it into a new object called `new_metadata`.
 
 ```r
 new_metadata <- read.csv("data/new_metadata.csv")
@@ -203,6 +203,6 @@ Outliers are determined using the interquartile range (IQR), which is defined as
  ![ggbox](../img/ggboxplot.png)
 
 ---
-*This lesson has been adapted by Andrew Guy, with original lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/Training-modules).*
+*This lesson has been adapted by Andrew Guy, with original lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/training-modules).*
 
 *These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*

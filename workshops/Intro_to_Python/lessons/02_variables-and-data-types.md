@@ -717,4 +717,4 @@ Packages such as `numpy` also have their own set of data types.
 That wraps up our overview of basic data types. Take a break and stretch your legs!
 
 
-[**Next Lesson: Functions, Loops and Conditionals**](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals)
+[**Next Lesson: Functions, Loops and Conditionals**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals)

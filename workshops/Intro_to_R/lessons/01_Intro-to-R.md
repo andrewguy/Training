@@ -125,8 +125,8 @@ There are a few files that we will be working with in the next few lessons and y
 
 ![File upload](../img/upload_files.png)
 
-* Download the **normalized counts file** by right clicking on [this link](https://raw.githubusercontent.com/andrewguy/Training/master/workshops/Intro_to_R/data/counts.rpkm.csv)
-* Download **metadata file** using [this link](https://raw.githubusercontent.com/andrewguy/Training/master/workshops/Intro_to_R/data/mouse_exp_design.csv)
+* Download the **normalized counts file** by right clicking on [this link](https://raw.githubusercontent.com/andrewguy/training/master/workshops/Intro_to_R/data/counts.rpkm.csv)
+* Download **metadata file** using [this link](https://raw.githubusercontent.com/andrewguy/training/master/workshops/Intro_to_R/data/mouse_exp_design.csv)
 
 > *NOTE:* If you are using RStudio locally on your laptop, you can move the files to the your working directory using your file explorer or finder (outside RStudio), or navigating to the files in the `Files` tab of the bottom right panel of RStudio
 
@@ -209,11 +209,11 @@ Before we move on to more complex concepts and getting familiar with the languag
 * The **R console** should be mainly used to inspect objects, test a function or get help. 
 * Use `#` signs to comment. **Comment liberally** in your R scripts. This will help future you and other collaborators know what each line of code (or code block) was meant to do. Anything to the right of a `#` is ignored by R. *A shortcut for this is `Ctrl + Shift + C` if you want to comment an entire chunk of text.*
 
-[**Next Lesson: Syntax and Data Structures**](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/02_syntax_and_data_structures)
+[**Next Lesson: Syntax and Data Structures**](https://andrewguy.github.io/training/workshops/Intro_to_R/lessons/02_syntax_and_data_structures)
 
 ---
 
-*This lesson has been adapted by Andrew Guy, with original lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/Training-modules). Changes include adapting material to run on RStudio Cloud.*
+*This lesson has been adapted by Andrew Guy, with original lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/training-modules). Changes include adapting material to run on RStudio Cloud.*
 
 *These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*
 

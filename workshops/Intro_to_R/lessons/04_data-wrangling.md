@@ -349,11 +349,11 @@ write(glengths, file="genome_lengths.txt", ncolumns=1)
 > the `tidyverse` package, which contains a suite of packages providing tools for the most common data science tasks. 
 
 
-[**Next Lesson: Data Visualization**](https://andrewguy.github.io/Training/workshops/Intro_to_R/lessons/05_data-visualization)
+[**Next Lesson: Data Visualization**](https://andrewguy.github.io/training/workshops/Intro_to_R/lessons/05_data-visualization)
 
 ---
 
-*This lesson has been adapted by Andrew Guy, with original lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/Training-modules).*
+*This lesson has been adapted by Andrew Guy, with original lesson material developed by members of the teaching team at the [Harvard Chan Bioinformatics Core (HBC)](http://bioinformatics.sph.harvard.edu/). The original material is available [here](https://github.com/hbctraining/training-modules).*
 *These are open access materials distributed under the terms of the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.*
 
 *The materials used in this lesson is adapted from work that is Copyright © Data Carpentry (http://datacarpentry.org/). All Data Carpentry instructional material is made available under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).*
