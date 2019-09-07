@@ -23,6 +23,8 @@ This workshop is designed to provide a solid foundation for the start of your Py
 |[Data wrangling](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_data-wrangling) | 55 min |
 |[Data Visualization](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-visualization) | 50 min |
 
+(Note: This is currently a work in progress, and all content is currently under lesson 1 (intro to Python). Will break up into logical sections soon.))
+
 ### Dataset
 
 All the files used for the above lessons are linked within, but can also be [accessed here](https://github.com/andrewguy/Training/workshops/Intro_to_Python/data).
