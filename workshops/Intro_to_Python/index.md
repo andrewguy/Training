@@ -18,10 +18,10 @@ This workshop is designed to provide a solid foundation for the start of your Py
 | Lessons            | Estimated Duration |
 |:------------------------|:----------|
 |[Introduction to Python and Jupyter Lab](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/01_Intro-to-Python) | 10 min |
-|[Syntax and data structures](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/02_variables-and-data-types) | 35 min |
-|[Functions, arguments, packages and seeking help in Python](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals) | xx min |
-|[Data wrangling](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_imports-and-packages) | xx min |
-|[Data Visualization](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting) | xx min |
+|[Variables and data types](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/02_variables-and-data-types) | 35 min |
+|[Functions, loops and conditionals](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals) | xx min |
+|[Imports and packages](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_imports-and-packages) | xx min |
+|[Data manipulation and plotting](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting) | xx min |
 
 (Note: This is currently a work in progress. More polishing of content needed...)
 
