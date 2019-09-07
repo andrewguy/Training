@@ -787,4 +787,4 @@ That wraps up our overview of basic data types. Take a break and stretch your le
 There are many other more complex data types from various Python packages. For example, the built-in (`collections` module)[https://docs.python.org/3.7/library/collections.html] has data types such as counters (counts the number of times each value occurs) and ordered dictionaries (like a dictionary, but entries are ordered like a list). Packages such as `numpy` also have their own set of data types.
 
 
-[**Next Lesson: Variables and data types**](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals)
+[**Next Lesson: Functions, Loops and Conditionals**](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals)

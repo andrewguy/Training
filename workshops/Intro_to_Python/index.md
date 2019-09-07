@@ -22,6 +22,7 @@ This workshop is designed to provide a solid foundation for the start of your Py
 |[Functions, loops and conditionals](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals) | xx min |
 |[Imports and packages](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/04_imports-and-packages) | xx min |
 |[Data manipulation and plotting](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting) | xx min |
+|[Getting Help](https://andrewguy.github.io/Training/workshops/Intro_to_Python/lessons/06_getting-help) | xx min |
 
 (Note: This is currently a work in progress. More polishing of content needed...)
 

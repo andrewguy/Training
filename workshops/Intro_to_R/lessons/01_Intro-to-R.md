@@ -125,8 +125,8 @@ There are a few files that we will be working with in the next few lessons and y
 
 ![File upload](../img/upload_files.png)
 
-* Download the **normalized counts file** by right clicking on [this link](https://raw.githubusercontent.com/andrewguy/Training/master/Intro_to_R/data/counts.rpkm.csv)
-* Download **metadata file** using [this link](https://raw.githubusercontent.com/andrewguy/Training/master/Intro_to_R/data/mouse_exp_design.csv)
+* Download the **normalized counts file** by right clicking on [this link](https://raw.githubusercontent.com/andrewguy/Training/master/workshops/Intro_to_R/data/counts.rpkm.csv)
+* Download **metadata file** using [this link](https://raw.githubusercontent.com/andrewguy/Training/master/workshops/Intro_to_R/data/mouse_exp_design.csv)
 
 > *NOTE:* If you are using RStudio locally on your laptop, you can move the files to the your working directory using your file explorer or finder (outside RStudio), or navigating to the files in the `Files` tab of the bottom right panel of RStudio
 
