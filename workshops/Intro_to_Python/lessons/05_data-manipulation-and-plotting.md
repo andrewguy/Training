@@ -273,6 +273,9 @@ It's also worth saving files as `.svg`, which is a vector graphics format. This 
 kde_plot.savefig('kde_plot.svg')
 hex_plot.savefig('hex_plot.svg')
 ```
-[**&#8592; Previous Lesson: Imports and Packages**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/04_imports-and-packages)
+
 
 [**Next Lesson: Getting Help &#8594;**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/06_getting-help)
+
+
+[**&#8592; Previous Lesson: Imports and Packages**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/04_imports-and-packages)

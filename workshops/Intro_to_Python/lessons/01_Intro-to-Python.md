@@ -95,7 +95,6 @@ For any new projects, use Python 3 (ideally the latest stable version &mdash; Py
 At various points during this tutorial there will be links to further information. Where possible, these are links to the official Python documentation. You are not expected to read these as part of this tutorial &mdash; rather, they are there if you need to dig deeper into a particular topic at some point. While the official documentation can be dense at times, it is also thorough. This often makes it the best source to really understand how the language works.
 
 
+[**Next Lesson: Variables and data types &#8594;**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/02_variables-and-data-types)
 
 [**&#8592; Back to Lesson Overview**](https://andrewguy.github.io/training/workshops/Intro_to_Python/index)
-
-[**Next Lesson: Variables and data types &#8594;**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/02_variables-and-data-types)

@@ -65,14 +65,16 @@ Note that once a function reaches the `return` statement, it does not execute an
 
 ```python
 def print_gene_summary(gene_list):
-    '''Print a formatted summary of all genes (number of genes in list and number of unique genes)
+    '''Print a formatted summary of all genes.
+    
+    Prints number of genes in list and number of unique genes.
     
     Args:
         gene_list (list): A list of genes.
     Returns:
         None
     '''
-    print(f"There are a total of {len(gene_list)} genes, with {len(set(gene_list))} unique genes.")
+    print(f"There are {len(gene_list)} genes, with {len(set(gene_list))} unique genes.")
     return 
 
 
@@ -260,6 +262,8 @@ Combined with `for` loops, `if` blocks allow us to create complex rules for proc
 
 However, there are often better ways of filtering and processing data using dedicated packages such as `numpy` or `pandas` &mdash; more on this later!
 
-[**&#8592; Previous Lesson: Variables and data types**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/02_variables-and-data-types)
 
 [**Next Lesson: Imports and Packages &#8594;**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/04_imports-and-packages)
+
+
+[**&#8592; Previous Lesson: Variables and data types**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/02_variables-and-data-types)
