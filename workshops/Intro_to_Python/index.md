@@ -36,4 +36,4 @@ If you don't have access to CloudStor, you can also use Jupyter Lab through [Bin
 
 If you wish to run Jupyter Lab locally, the easiest way is to download the [Anaconda Python distribution](https://www.anaconda.com/distribution/) and install on your laptop.
 
-[**Get Started! &#8594;**]((https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/01_Intro-to-Python))
+[**Get Started! &#8594;**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/01_Intro-to-Python)
