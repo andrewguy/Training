@@ -80,5 +80,6 @@ While this list is by no means exhaustive, here are some of the key packages tha
 - [Scikit-Learn](https://scikit-learn.org/stable/): Tools for data mining, data analysis and machine learning.
 - [StatsModels](https://www.statsmodels.org): Statistical tests and data exploration.
 
+[**&#8592; Previous Lesson: Functions, Loops and Conditionals**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/03_functions-loops-and-conditionals)
 
-[**Next Lesson: Data Manipulation and Plotting**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting)
+[**Next Lesson: Data Manipulation and Plotting &#8594;**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/05_data-manipulation-and-plotting)

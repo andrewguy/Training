@@ -260,5 +260,6 @@ Combined with `for` loops, `if` blocks allow us to create complex rules for proc
 
 However, there are often better ways of filtering and processing data using dedicated packages such as `numpy` or `pandas` &mdash; more on this later!
 
+[**&#8592; Previous Lesson: Variables and data types**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/02_variables-and-data-types)
 
-[**Next Lesson: Imports and Packages**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/04_imports-and-packages)
+[**Next Lesson: Imports and Packages &#8594;**](https://andrewguy.github.io/training/workshops/Intro_to_Python/lessons/04_imports-and-packages)
